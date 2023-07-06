@@ -1,0 +1,5 @@
+* Install a docker engine
+* Create a directory for the setup
+* Create a Dockerfile
+* Build and tag the image: docker build -t ["Your desired Image name"]:[tag] .
+* Run the image as a Container: docker run --name ["desired container name"] -d ['To run in a detached mode'] -p [Port number= 80:80] ["Image name"] ["Image tag"]
